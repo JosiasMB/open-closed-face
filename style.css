@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.emoji {
+    font-size: 25rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.closed {
+    display: none;
+}
+.open {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.colors{
+    background-color: rgba(208, 49, 192, 0.64);
+}
+.color1{
+    background-color: black;
+}
+
+
+.text{
+    color: white;
+    font-size: 2em;
+}
+p {
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+.showed{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+
+
